@@ -1,0 +1,9 @@
+#background {
+    background-color: lightblue;
+    /*max-height: 1500px;*/
+    min-height: 750px;
+    max-width: 1500px;
+    min-width: 500px;
+    /*margin: 100;*/
+    
+}
