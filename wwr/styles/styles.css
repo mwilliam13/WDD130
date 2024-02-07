@@ -54,6 +54,10 @@ header {
     background-color:#154467;
 }
 
+.logo {
+    width: 80px;
+}
+
 .book, .join {
     color:#000000;
     text-decoration: none;
