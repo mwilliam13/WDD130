@@ -1,0 +1,17 @@
+div {
+    display: grid;
+    /*grid-template-columns: auto auto auto auto auto auto auto;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 3px;
+    background-color: cornflowerblue;
+    padding: 1px;
+    
+}
+
+.grid-item {
+    background-color: darkgrey;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+}
