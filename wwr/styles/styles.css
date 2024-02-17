@@ -12,7 +12,7 @@
 
 .home-title{
     color:#fcfbfb;
-    font-family: 'Grape Nuts';
+    font-family: 'Grape Nuts', Garamond, serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -22,7 +22,7 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Grape Nuts';
+    font-family: 'Grape Nuts', Garamond, serif;
 }
 
 h2 {
