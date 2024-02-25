@@ -1,0 +1,6 @@
+https://coolors.co/678c91-98a5ab-ccd2de-567a78-4e5454
+
+<tr><td class="primary">[#567A78]</td>
+<td class="secondary">[#CCD2DE]</td>
+<td class="accent1">[#4E5454]</td>
+<td class="accent2">[#678C91]</td></tr>
