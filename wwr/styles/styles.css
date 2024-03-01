@@ -84,6 +84,10 @@ nav a:hover {
     z-index: -1;
 }
 
+#hero-img {
+    width: 100%;
+}
+
 #hero-msg {
     text-align: center;
     grid-column: 2/3;
