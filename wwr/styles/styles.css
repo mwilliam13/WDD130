@@ -85,7 +85,9 @@ nav a:hover {
 }
 
 #hero-img {
+    height: auto;
     width: 100%;
+    display:block;
 }
 
 #hero-msg {
