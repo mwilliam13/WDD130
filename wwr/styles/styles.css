@@ -72,25 +72,25 @@ nav a:hover {
     
 }
 
-#hero {
+#bread {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
 
-#hero-box {
+#bread-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
 
-#hero-img {
+#bread-img {
     height: auto;
     width: 100%;
     display:block;
 }
 
-#hero-msg {
+#bread-msg {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
@@ -98,7 +98,7 @@ nav a:hover {
         
 }
 
-#hero-msg h4 {
+#bread-msg h4 {
     text-align: center;
     color:#ffffff;
     grid-column: 2/3;
@@ -265,7 +265,7 @@ footer p a:hover {
 /* ----what is there now.------------*/
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #bread, .home-grid {
         display: block;
         height: auto;
     }
@@ -276,16 +276,16 @@ footer p a:hover {
         display: block;
         padding: 15px;
     }
-    #hero {
+    #bread {
         margin-top: 0;
     }
-    #hero-msg {
+    #bread-msg {
         margin-top: 0;
     }
-    #hero-msg h4 {
+    #bread-msg h4 {
         display: none;
     }
-    #hero-msg h1 {
+    #bread-msg h1 {
         color: #6f7364;
     }
     .home-title {
