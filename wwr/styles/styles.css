@@ -40,8 +40,12 @@ nav {
 .logo {
     width: 80px;
 }
-
-#logo_link {
+.contact-us-greeting {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+#logo_link, #feedback {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
