@@ -1,3 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Grape+Nuts&family=Montserrat&display=swap');
+
+body {
+    padding: 20px;
+    background-color: rgba(143, 143, 145, 0.541);
+    font-family:Belanosima, Helvetica, sans-serif;
+    }
+
+
 .logo {
     width: 150px;
+     }
+
+header {
+        background-color:#567A78;
+        display: grid;
+        grid-template-columns: 150px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+ nav {
+    display: flex;
+        justify-content:space-around;
+    }
+nav a {
+  padding:1em;
+  min-width: 80px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a {
+    text-align: center;
+    color:#fcfbfb;
+    text-decoration: none;
+    padding: auto;
+    vertical-align: middle;
+    font-family: 'Grape nuts', 'Bradley Hand', cursive;
+    font-size: 30px;
+}
+
+nav a:hover {
+    background-color: #4E5454;
+    color: #CCD2DE;
+    
+}
+h1 {
+    font-size:30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Grape nuts', 'Bradley Hand', cursive;
+}
+
+h2 {
+    font-size:45px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Grape nuts', 'Bradley Hand', cursive;
+}
+
+a {
+    font-size: 1em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+#bread {
+    position: relative;
+}
+
+#bread-box {
+    width: 100%;
+}
+
+#bread-img {
+    width: 100%;
+    height: auto;
+}
+
+#bread-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 500px;
+}
+
+#bread-msg a.start-here { 
+    font-size: 1.5em; 
+    color: white;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none; 
+    border-radius: 5px; 
+    display: inline-block;
+    margin-top: 20px; 
+}
+
+
+p{
+    font-size: 1.25em;
+    margin-top: 35px;
+    line-height: 1.5em;
+
+}
+
+div {
+    text-align: center;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 50px;
+}
+
+.bread-card { 
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bread-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.bread-card h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.home-grid .bread1-card {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.home-grid .bread2-card {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.home-grid .bread3-card {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.home-grid .info {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+
+footer {
+    background-color: #567A78;
+    padding: 25px 50px;
+    text-align: left;
+    color: #CCD2DE;
 }
